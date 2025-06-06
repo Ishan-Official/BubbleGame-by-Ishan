@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(163, 243, 163);
+}
+#panel{
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30%;
+    color: #fff;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(56, 94, 56);
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20%;
+   
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.box{
+    padding: 10px 20px;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(25, 137, 25);
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100%-100px);
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 107, 72);
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 500;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(43, 58, 43);
+}
